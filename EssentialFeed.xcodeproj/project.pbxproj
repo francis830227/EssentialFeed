@@ -10,7 +10,9 @@
 		EB61691D280801AA009177E6 /* EssentialFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6168F5280801A9009177E6 /* EssentialFeedApp.swift */; };
 		EB61691F280801AA009177E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6168F6280801A9009177E6 /* ContentView.swift */; };
 		EB616921280801AA009177E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6168F7280801AA009177E6 /* Assets.xcassets */; };
-		EB616938280802FD009177E6 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB616937280802FD009177E6 /* EssentialFeedTests.swift */; };
+		EB616940280813D2009177E6 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61693F280813D2009177E6 /* FeedItem.swift */; };
+		EB61694228081474009177E6 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694128081474009177E6 /* FeedLoader.swift */; };
+		EB61694428094CF8009177E6 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694328094CF8009177E6 /* RemoteFeedLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,9 @@
 		EB6168F7280801AA009177E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6168FC280801AA009177E6 /* EssentialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB616935280802FD009177E6 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB616937280802FD009177E6 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
+		EB61693F280813D2009177E6 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		EB61694128081474009177E6 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
+		EB61694328094CF8009177E6 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		EB6168EF280801A9009177E6 = {
 			isa = PBXGroup;
 			children = (
+				EB61693E280813BB009177E6 /* Feed Feature */,
 				EB6168F4280801A9009177E6 /* Shared */,
 				EB616936280802FD009177E6 /* EssentialFeedTests */,
 				EB6168FD280801AA009177E6 /* Products */,
@@ -81,9 +86,18 @@
 		EB616936280802FD009177E6 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				EB616937280802FD009177E6 /* EssentialFeedTests.swift */,
+				EB61694328094CF8009177E6 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		EB61693E280813BB009177E6 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				EB61693F280813D2009177E6 /* FeedItem.swift */,
+				EB61694128081474009177E6 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +201,8 @@
 			files = (
 				EB61691F280801AA009177E6 /* ContentView.swift in Sources */,
 				EB61691D280801AA009177E6 /* EssentialFeedApp.swift in Sources */,
+				EB61694228081474009177E6 /* FeedLoader.swift in Sources */,
+				EB616940280813D2009177E6 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB616938280802FD009177E6 /* EssentialFeedTests.swift in Sources */,
+				EB61694428094CF8009177E6 /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
