@@ -15,6 +15,7 @@
 		EB61694428094CF8009177E6 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694328094CF8009177E6 /* RemoteFeedLoaderTests.swift */; };
 		EB61694828097A9B009177E6 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694628097A87009177E6 /* RemoteFeedLoader.swift */; };
 		EB61694A280AA12F009177E6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB616949280AA12F009177E6 /* HTTPClient.swift */; };
+		EB61694C280AA196009177E6 /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694B280AA196009177E6 /* FeedItemMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EB61694328094CF8009177E6 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		EB61694628097A87009177E6 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		EB616949280AA12F009177E6 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		EB61694B280AA196009177E6 /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				EB61694628097A87009177E6 /* RemoteFeedLoader.swift */,
 				EB616949280AA12F009177E6 /* HTTPClient.swift */,
+				EB61694B280AA196009177E6 /* FeedItemMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				EB61694A280AA12F009177E6 /* HTTPClient.swift in Sources */,
 				EB61694228081474009177E6 /* FeedLoader.swift in Sources */,
 				EB61694828097A9B009177E6 /* RemoteFeedLoader.swift in Sources */,
+				EB61694C280AA196009177E6 /* FeedItemMapper.swift in Sources */,
 				EB616940280813D2009177E6 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
