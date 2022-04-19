@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5DF408280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DF407280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift */; };
 		EB61691D280801AA009177E6 /* EssentialFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6168F5280801A9009177E6 /* EssentialFeedApp.swift */; };
 		EB61691F280801AA009177E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6168F6280801A9009177E6 /* ContentView.swift */; };
 		EB616921280801AA009177E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6168F7280801AA009177E6 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB5DF407280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		EB6168F5280801A9009177E6 /* EssentialFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedApp.swift; sourceTree = "<group>"; };
 		EB6168F6280801A9009177E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB6168F7280801AA009177E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB5DF406280E98AD0018C2F0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB5DF407280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EB6168EF280801A9009177E6 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 		EB61694D280AAD60009177E6 /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
+				EB5DF406280E98AD0018C2F0 /* Helpers */,
 				EB61694328094CF8009177E6 /* RemoteFeedLoaderTests.swift */,
 				EB61694E280DAD29009177E6 /* URLSessionHTTPClientTests.swift */,
 			);
@@ -243,6 +254,7 @@
 			files = (
 				EB61694428094CF8009177E6 /* RemoteFeedLoaderTests.swift in Sources */,
 				EB61694F280DAD29009177E6 /* URLSessionHTTPClientTests.swift in Sources */,
+				EB5DF408280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
