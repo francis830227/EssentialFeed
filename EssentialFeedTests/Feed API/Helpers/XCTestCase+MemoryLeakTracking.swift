@@ -5,7 +5,6 @@
 //  Created by Kai-Ping Tseng on 2022/4/19.
 //
 
-import Foundation
 import XCTest
 
 extension XCTestCase {

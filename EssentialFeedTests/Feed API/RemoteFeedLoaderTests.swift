@@ -7,7 +7,6 @@
 
 import XCTest
 import EssentialFeed
-import SwiftUI
 
 class RemoteFeedLoaderTests: XCTestCase {
     
