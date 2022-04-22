@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EB31072C281070310008A9B2 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DF407280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift */; };
+		EB31073028107B040008A9B2 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DF411280FC4BD0018C2F0 /* EssentialFeedAPIEndToEndTests.swift */; };
 		EB5DF408280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DF407280E98E70018C2F0 /* XCTestCase+MemoryLeakTracking.swift */; };
 		EB5DF40A280EB8B10018C2F0 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DF409280EB8B10018C2F0 /* URLSessionHTTPClient.swift */; };
-		EB5DF412280FC4BD0018C2F0 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DF411280FC4BD0018C2F0 /* EssentialFeedAPIEndToEndTests.swift */; };
 		EB61691D280801AA009177E6 /* EssentialFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6168F5280801A9009177E6 /* EssentialFeedApp.swift */; };
 		EB61691F280801AA009177E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6168F6280801A9009177E6 /* ContentView.swift */; };
 		EB616921280801AA009177E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6168F7280801AA009177E6 /* Assets.xcassets */; };
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB5DF412280FC4BD0018C2F0 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
+				EB31073028107B040008A9B2 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 				EB31072C281070310008A9B2 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78Y9MSJT25;
@@ -371,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78Y9MSJT25;
