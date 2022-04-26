@@ -71,14 +71,14 @@ class CacheFeedUseCaseTests: XCTestCase {
     }
     
     func test_save_doesNotRequestCacheInsertionOnDeletionError() {
-        let (sut, store) = makeSUT()
         let items = [uniqueItem(), uniqueItem()]
+        let (sut, store) = makeSUT()
         let deletionError = anyNSError()
         
         sut.save(items)
         
         store.completeDeletion(with: deletionError)
-                
+        
         XCTAssertEqual(store.insertCallCount, 0)
     }
     
