@@ -23,6 +23,7 @@
 		EB61694C280AA196009177E6 /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694B280AA196009177E6 /* FeedItemMapper.swift */; };
 		EB61694F280DAD29009177E6 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61694E280DAD29009177E6 /* URLSessionHTTPClientTests.swift */; };
 		EB8BEFB9284E41FA00A16747 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BEFB8284E41FA00A16747 /* LocalFeedLoader.swift */; };
+		EB8BEFBB284E428C00A16747 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BEFBA284E428C00A16747 /* FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		EB61694B280AA196009177E6 /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
 		EB61694E280DAD29009177E6 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		EB8BEFB8284E41FA00A16747 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		EB8BEFBA284E428C00A16747 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				EB8BEFB8284E41FA00A16747 /* LocalFeedLoader.swift */,
+				EB8BEFBA284E428C00A16747 /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				EB61694A280AA12F009177E6 /* HTTPClient.swift in Sources */,
 				EB8BEFB9284E41FA00A16747 /* LocalFeedLoader.swift in Sources */,
 				EB5DF40A280EB8B10018C2F0 /* URLSessionHTTPClient.swift in Sources */,
+				EB8BEFBB284E428C00A16747 /* FeedStore.swift in Sources */,
 				EB61694228081474009177E6 /* FeedLoader.swift in Sources */,
 				EB61694828097A9B009177E6 /* RemoteFeedLoader.swift in Sources */,
 				EB61694C280AA196009177E6 /* FeedItemMapper.swift in Sources */,
