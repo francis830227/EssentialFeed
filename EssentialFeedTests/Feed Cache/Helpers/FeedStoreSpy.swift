@@ -1,5 +1,5 @@
 //
-//  FeedLoaderSpy.swift
+//  FeedStoreSpy.swift
 //  EssentialFeedTests
 //
 //  Created by Kai-Ping Tseng on 2022/6/13.
@@ -57,5 +57,9 @@ class FeedStoreSpy: FeedStore {
     
     func completeRetrieval(with error: Error, index: Int = 0) {
         retrievalCompletions[index](error)
+    }
+    
+    func completeRetrievalWithEmptyCache(at index: Int = 0) {
+        retrievalCompletions[index](nil)
     }
 }
