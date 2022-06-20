@@ -31,6 +31,7 @@
 		EBD29AA5285C80B60052FF9C /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD29AA4285C80B60052FF9C /* ValidateFeedCacheUseCaseTests.swift */; };
 		EBD29AA7285C85350052FF9C /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD29AA6285C85350052FF9C /* FeedCacheTestHelpers.swift */; };
 		EBD29AA9285C86100052FF9C /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD29AA8285C86100052FF9C /* SharedTestHelpers.swift */; };
+		EBD29AAC286066E30052FF9C /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD29AAA286066790052FF9C /* FeedCachePolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		EBD29AA4285C80B60052FF9C /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		EBD29AA6285C85350052FF9C /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		EBD29AA8285C86100052FF9C /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		EBD29AAA286066790052FF9C /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				EB8BEFB8284E41FA00A16747 /* LocalFeedLoader.swift */,
 				EB8BEFBA284E428C00A16747 /* FeedStore.swift */,
 				EB8BEFBE284F51FF00A16747 /* LocalFeedImage.swift */,
+				EBD29AAA286066790052FF9C /* FeedCachePolicy.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB61691F280801AA009177E6 /* ContentView.swift in Sources */,
+				EBD29AAC286066E30052FF9C /* FeedCachePolicy.swift in Sources */,
 				EB61691D280801AA009177E6 /* EssentialFeedApp.swift in Sources */,
 				EB61694A280AA12F009177E6 /* HTTPClient.swift in Sources */,
 				EB8BEFB9284E41FA00A16747 /* LocalFeedLoader.swift in Sources */,
